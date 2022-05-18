@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.edit{
+    background-color: rgb(75, 216, 122);
+}
+
+.delete{
+    background-color: rgb(214, 60, 60);
+}
+
+body{
+    height: 100%;
+    background-color: rgb(132, 155, 185);
+    box-sizing: border-box;
+}
+
+h1 {
+	color: #fff;
+	font-size: 5rem;
+	font-weight: 50;
+	text-align: center;
+	margin: 3rem 0 1rem; 
+	font-family: 'Hind', sans-serif;
+    padding-top: 40px;
+}
+
+.title{
+	color: rgb(24, 31, 24);
+	font-weight: 800;
+}
+
+.a{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+}
+
+.add{
+    font-size: 20px ;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: lime;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+
+.update{
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: rgb(75, 129, 73);
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+
+ol{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
+
+.edit{
+    padding: 0rem 1rem;
+    outline: none;
+    border: none;
+    height: 30px;
+    border-radius: 25px;
+    width: 100px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+    background-color: rgb(75, 216, 122);
+}
+
+.edit:hover{
+    background-color: rgb(73, 184, 110);
+}
+
+.delete{
+    padding: 0rem 1rem;
+    outline: none;
+    border: none;
+    height: 30px;
+    border-radius: 25px;
+    width: 100px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+    background-color: rgb(241, 107, 107);
+}
+
+.delete:hover{
+    background-color: rgb(214, 60, 60);
+}
